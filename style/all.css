@@ -1,0 +1,519 @@
+body{
+    background: #EFEFF2;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color: #19191C;
+    text-decoration: none;
+}
+.btn-box{
+    display: flex;
+    gap: 46px;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+.header__link{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header__btn{
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 170px 230px;
+    background: url("../img/business-finance-employment.png") 100% 100% no-repeat;
+}
+
+.offer__holder{
+    width: 648px;
+    background: url("../img/bg01.png") 100% 100% no-repeat;
+    padding-top: 100px;
+}
+
+.offer__duration{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    text-decoration-color: #504DEE;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+    padding-bottom: 20px;
+}
+
+.offer__profession{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.offer__title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}
+
+.button{
+    background: #504DEE;
+    color: #EFEFF2;
+    border: none;
+    padding: 16px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0 0 110px;
+}
+
+.offer__sale{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}
+
+.offer__time{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.offer__description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.offer__list{
+    align-items: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.offer__invision{
+    top: 140px;
+    right: 40px;
+}
+
+.offer__proto-pie{
+    top: 80px;
+    right: 240px;
+}
+
+.offer__miro{
+    top: 150px;
+    right: 480px;
+}
+
+.offer__photoshop{
+    top: 300px;
+    right: 450px;
+}
+
+.offer__figma{
+    top: 470px;
+    right: 650px;
+}
+
+.offer__illustrator{
+    top: 670px;
+    right: 620px;
+}
+
+.profession{
+    padding-top: 60px;
+    background: #FBFBFC;
+}
+
+.profession__info{
+    display: flex;
+    margin: 0 auto;
+}
+
+.profession__title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    width: 450px;
+}
+
+.profession__description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6D6D77;
+    width: 588px;
+}
+
+.profession__info-item{
+    padding-left: 60px;
+}
+
+.profession__info-number{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.profession__info-value{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.profession__info-salary{
+    text-decoration: underline;
+    text-decoration-color: #19191C;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 25px;
+    padding-bottom: 15px;
+}
+
+.profession__info-vacation{
+    text-decoration: underline;
+    text-decoration-color: #19191C;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 25px;
+    padding-bottom: 15px;
+
+}
+
+.profession__info-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6D6D77;
+}
+
+.profession__learn{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 10px 10px;
+}
+
+.profession__portfolio{
+    background: #DEEFE4;
+    width: 467px;
+}
+
+.profession__portfolio-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding-left: 30px;
+    text-decoration: underline;
+    text-decoration-color: #19191C;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 20px;
+}
+
+.profession__portfolio-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 368px;
+    padding-left: 30px;
+}
+
+.profession__internship{
+    background: #F3F3D7;
+    width: 467px;
+}
+
+.profession__certificate{
+    background: #EFDEEE;
+    width: 467px;
+}
+
+.discover {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #FBFBFC;
+}
+
+.discover__title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    width: 500px;
+}
+
+.discover_content{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 10px 10px;
+}
+
+.discover__base{
+    background: #DEEFE4;
+    width: 466px;
+}
+
+.discover__optimal{
+    background: #504DEE;
+    width: 466px;
+}
+
+.discover__premium{
+    background: #DEEFE4;
+    width: 466px;
+}
+
+.discover__account-title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding-left: 68px;
+    padding-top: 48px;
+}
+
+.discover__account-list{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 88px;
+    list-style-type: square;
+}
+
+.discover__account-base-price-per-year{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    padding-left: 65px;
+    color: #6D6D77;
+    margin: 110px 0 0;
+}
+
+.discover__account-optimal-price-per-year{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    padding-left: 65px;
+    color: #EFEFF2;
+    margin: 80px 0 0;
+}
+
+.discover__account-premium-price-per-year{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    padding-left: 65px;
+    color: #6D6D77;
+    margin: 80px 0 0;
+}
+
+.discover__account-price-per-month{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    padding-left: 65px;
+    margin: 0 auto;
+}
+
+.discover__account-optimal-price-per-month {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    padding-left: 65px;
+    margin: 0 auto;
+    color: #EFEFF2;
+}
+
+.discover__account-button{
+    background: #19191C;
+    color: #EFEFF2;
+    border: none;
+    padding: 16px 37px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 10px 70px 30px;
+}
+
+.discover__account-button-optimal{
+    background: #EFEFF2;
+    color: #504DEE;
+}
+
+.discover__account-text{
+    color: #EFEFF2;
+}
+
+.discover___account-line{
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    padding: 36px 100px 0;
+    background-color: #19191C;
+}
+
+.footer__logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #EFEFF2;
+    text-decoration: none;
+}
+
+.footer__contact{
+    display: list-item;
+    color: #EFEFF2;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sitemap{
+    display: list-item;
+    color: #EFEFF2;
+    list-style: none;
+}
+.sitemap__title{
+    color: #EFEFF2;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600
+}
+
+.sitemap__list-style{
+    color: #EFEFF2;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer__box {
+    flex: 1;
+}
+
+.sitemap {
+    flex: 1;
+}
+
+.copyright {
+    flex: 1;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright__link,
+.copyright p {
+    color: #6D6D77;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__box {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .header__btn {
+        margin-top: 20px;
+    }
+}
+
